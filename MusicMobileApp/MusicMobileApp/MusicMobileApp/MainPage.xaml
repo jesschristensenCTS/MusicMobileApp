@@ -10,5 +10,6 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
+	<Label Text="Test"/>
 
 </ContentPage>
