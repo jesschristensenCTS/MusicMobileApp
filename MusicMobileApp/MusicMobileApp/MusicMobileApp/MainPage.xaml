@@ -4,12 +4,12 @@
              xmlns:local="clr-namespace:MusicMobileApp"
              x:Class="MusicMobileApp.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-	<Label Text="Test"/>
+	<StackLayout>
+		<Entry x:Name="name" Text="Track Name" />
+		<Entry x:Name="genre" Text="Genre" />
+		<Entry x:Name="length" Text="Length" />
+		<Entry x:Name="artist" Text="Artist" />
+		<Button x:Name="addButton" Text="Add to Database" Clicked="AddToDatabase"/>
+	</StackLayout>
 
 </ContentPage>

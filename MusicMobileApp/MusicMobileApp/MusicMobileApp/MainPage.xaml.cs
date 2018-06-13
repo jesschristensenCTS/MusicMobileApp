@@ -13,5 +13,10 @@ namespace MusicMobileApp
 		{
 			InitializeComponent();
 		}
+
+        void AddToDatabase()
+        {
+            addButton.Text = "Added";
+        }
 	}
 }
